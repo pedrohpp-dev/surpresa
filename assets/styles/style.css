@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --rosa-principal: #fb82b5;
+    --branco-secundario: #FFFFFF;
+    --cor-de-fundo: #EDDBC7;
+
+    --font-principal: 'Inter', sans-serif;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--rosa-principal);
+    font-family: var(--font-principal);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.cabecalho {
+    background-color: var(--rosa-principal);
+    padding: 1rem;
+}
+
+.cabecalho__navegacao {
+    display: flex;
+    justify-content: start;
+    gap: 40px;
+    padding-left: 25%;
+}
+
+.cabecalho__navegacao_links {
+    text-decoration: none;
+    color: var(--branco-secundario);
+}
+/* 
+.principal {
+    background-image: url(../images/melhor-pq.jpg);
+    background-repeat: no-repeat;
+    align-items: center;
+} */
+
+.container {
+    height: 90vh;
+    align-items: center;
+}
+
+.principal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container__titulo {
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 0 6rem;
+}
+
+.container__imagem {
+    margin: 0 6rem;
+    text-align: center;
+}
+
+.secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    height: 40vh;
+}
+
+.container__texto {
+    margin: 0 6rem;
+}
+
+.terciario {
+    height: 90vh;
+}
+
+.container__fotos {
+    display: flex;
+    justify-items: center;
+    gap: 40px;
+    margin: 5rem 0 2rem 0;
+}
+
+.container__lista {
+    list-style-type: none;
+}
+
+.rodape {
+    background-color: var(--rosa-principal);
+    padding: 1rem;
+    color: var(--branco-secundario);
+    text-align: center;
+}
