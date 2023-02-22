@@ -74,15 +74,16 @@ body {
     align-items: center;
     text-align: center;
     gap: 15px;
-    height: 40vh;
+    height: 90vh;
 }
 
 .container__texto {
-    margin: 0 6rem;
+    margin: 6rem 6rem 0 6rem;
+    font-size: 1.5rem;
 }
 
 .terciario {
-    height: 90vh;
+    height: 100vh;
 }
 
 .container__fotos {
