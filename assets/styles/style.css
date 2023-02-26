@@ -11,7 +11,7 @@
 :root {
     --rosa-principal: #fb82b5;
     --branco-secundario: #FFFFFF;
-    --cor-de-fundo: #EDDBC7;
+    --cor-de-fundo: #e3d7c8;
 
     --font-principal: 'Inter', sans-serif;
 }
@@ -40,12 +40,6 @@ body {
     text-decoration: none;
     color: var(--branco-secundario);
 }
-/* 
-.principal {
-    background-image: url(../images/melhor-pq.jpg);
-    background-repeat: no-repeat;
-    align-items: center;
-} */
 
 .container {
     height: 90vh;
@@ -61,6 +55,8 @@ body {
     font-weight: 700;
     font-size: 3rem;
     margin: 0 6rem;
+    color: #ea3767;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.282);
 }
 
 .container__imagem {
@@ -69,26 +65,32 @@ body {
 }
 
 .secundario {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; */
     text-align: center;
-    gap: 15px;
-    height: 90vh;
+    /* gap: 15px; */
+    height: 100vh;
 }
 
 .container__texto {
     margin: 6rem 6rem 0 6rem;
     font-size: 1.5rem;
+    color: #d54b70;
 }
 
 .terciario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     height: 100vh;
 }
 
 .container__fotos {
     display: flex;
     justify-items: center;
+    align-items: center;
     gap: 40px;
     margin: 5rem 0 2rem 0;
 }
@@ -102,4 +104,77 @@ body {
     padding: 1rem;
     color: var(--branco-secundario);
     text-align: center;
+}
+
+
+@media (max-width: 1200px) {
+
+    body {
+        height: 100%;
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .cabecalho__navegacao {
+        padding-left: 13%;
+        align-items: center;
+    }
+    .container {
+        height: 100vh;
+        margin: 0 1rem;
+    }
+    
+    .principal {
+        margin: 1rem 0;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .container__teste {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .secundario {
+        height: 100%;
+        
+        /* margin-bottom: 100%; */
+    }
+
+    .container__texto {
+        font-size: 1rem;
+    }
+
+    .container__titulo {
+        margin-top: 1rem;
+    }
+
+    .titulo__principal {
+        margin-bottom: 2rem;
+    }
+
+    .titulo__destaque {
+        margin-top: 3rem;
+    }
+
+    .terciario {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+        /* margin-bottom: 100%; */
+    }
+
+    .container__fotos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-items: center;
+    }
+
+    .rodape {
+        /* margin-top: 110%; */
+    }
 }
