@@ -65,11 +65,7 @@ body {
 }
 
 .secundario {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
     text-align: center;
-    /* gap: 15px; */
     height: 100vh;
 }
 
@@ -115,6 +111,10 @@ body {
         font-size: 1rem;
     }
 
+    .cabecalho {
+        width: 100%;
+    }
+
     .cabecalho__navegacao {
         padding-left: 13%;
         align-items: center;
@@ -139,6 +139,10 @@ body {
 
     .secundario {
         height: 100%;
+    }
+
+    .container__imagem {
+        margin-bottom: 15%;
     }
 
     .container__texto {
@@ -169,5 +173,9 @@ body {
         flex-direction: column;
         align-items: center;
         align-items: center;
+    }
+
+    .rodape {
+        width: 100%;
     }
 }
