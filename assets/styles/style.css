@@ -139,8 +139,6 @@ body {
 
     .secundario {
         height: 100%;
-        
-        /* margin-bottom: 100%; */
     }
 
     .container__texto {
@@ -164,7 +162,6 @@ body {
         display: flex;
         flex-direction: column;
         margin-top: 10%;
-        /* margin-bottom: 100%; */
     }
 
     .container__fotos {
@@ -172,9 +169,5 @@ body {
         flex-direction: column;
         align-items: center;
         align-items: center;
-    }
-
-    .rodape {
-        /* margin-top: 110%; */
     }
 }
