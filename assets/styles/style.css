@@ -125,6 +125,7 @@ body {
     }
     
     .principal {
+        height: 100%;
         margin: 1rem 0;
         flex-direction: column;
         gap: 20px;
