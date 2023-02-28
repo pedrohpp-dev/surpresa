@@ -91,6 +91,23 @@ body {
     margin: 5rem 0 2rem 0;
 }
 
+.imagens {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.imagens img {
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100%);
+    transition: all .3s ease;
+}
+
+.imagens:hover img{
+    filter: none;
+    transform: rotate(5deg) scale(1.1);
+}
+
 .container__lista {
     list-style-type: none;
 }
@@ -172,7 +189,6 @@ body {
     .container__fotos {
         display: flex;
         flex-direction: column;
-        align-items: center;
         align-items: center;
     }
 
